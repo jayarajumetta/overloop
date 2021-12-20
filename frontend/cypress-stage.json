@@ -1,0 +1,22 @@
+{
+    "baseUrl": "http://localhost:3000/",
+    "projectId": "qaim45",
+    "retries": {
+     "runMode": 2,
+     "openMode": 2
+    },
+    "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false,
+     "responseTimeout": 60000,
+     "pageLoadTimeout": 120000,
+     "defaultCommandTimeout": 8000
+  }
+  
+  

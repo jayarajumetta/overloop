@@ -1,0 +1,13 @@
+{
+    "baseUrl": "http://localhost:3000/",
+    "projectId": "qaim45",
+    "retries": {
+     "runMode": 2,
+     "openMode": 2
+    },
+     "responseTimeout": 60000,
+     "pageLoadTimeout": 120000,
+     "defaultCommandTimeout": 8000
+  }
+  
+  
